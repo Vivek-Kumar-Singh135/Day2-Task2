@@ -1,94 +1,112 @@
-body{
+body {
     background-image: url("bg2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.a{
-   text-decoration: none; 
+
+.a {
+    text-decoration: none;
 }
-.header{
+
+.header {
     height: 100px;
 }
-.name{
+
+.name {
     font-size: xx-large;
     font-weight: bold;
     font-style: italic;
     font-family: cursive;
-    color:rgba(20, 9, 9, 0.911);
+    color: rgba(20, 9, 9, 0.911);
 }
-.options{
+
+.options {
     padding-left: 750px;
     position: absolute;
 }
-.body{
+
+.body {
     padding-top: 100px;
     padding-left: 10px;
 }
-.profile{
-    
-    width:300px;
-    height:300px;
+
+.profile {
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
-.about{
-    color:darkgray;
+
+.about {
+    color: chartreuse;
     padding-left: 400px;
     position: absolute;
     font-size: 50px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.description{
-    color:rgb(209, 238, 238);
+
+.description {
+    color: rgb(209, 238, 238);
     padding-left: 0;
     font-size: 15px;
     position: absolute;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.college{
+
+.college {
     font-size: 25px;
-    color:grey;
+    color: grey;
 }
-.col{
-    font-size:50px;
+
+.col {
+    font-size: 50px;
     font-style: italic;
     font-weight: bold;
-    color:black;
+    color: black;
 }
-.table{
+
+.table {
     border-radius: 10px;
     height: 500px;
-    padding-left: 10px;
-    float:left;
 }
-.heading1{
+
+.heading1 {
     font-size: xx-large;
     height: 70px;
     text-align: center;
     font-weight: bold;
-    background:linear-gradient(130deg, red, green);
+    background: linear-gradient(130deg, red, green);
 }
-.td{
+
+.td {
     text-align: center;
-    font-size: large; 
-    color:bisque;
+    font-size: large;
+    color: aquamarine;
 }
-.table2{
+
+.table2 {
     border-radius: 10px;
     height: 500px;
     padding-left: 150px;
-    float:left;
+    float: left;
 }
-.heading2{
+
+.heading2 {
     font-size: xx-large;
     height: 70px;
     text-align: center;
     font-weight: bold;
-    background:linear-gradient(130deg, blue, violet);
+    background: linear-gradient(130deg, blue, violet);
 }
-.contacts{
-    width:100px;
-    height:100px;
+
+.contacts {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
 }
